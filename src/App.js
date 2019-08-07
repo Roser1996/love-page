@@ -20,6 +20,7 @@ class App extends Component {
       return (
         <div>
           <div id="heart"></div>
+          <h1>Renee</h1>
           <h1>Happy Chinese Valentines day</h1>
         </div>
       );
@@ -28,7 +29,9 @@ class App extends Component {
       return (
         <div className="myBtn">
           <button type="button" onClick={this.handleClick}>
-            Suprise! Click Me!
+            <span>
+              Suprise! Click Me!
+            </span>
           </button>
         </div>
       );
